@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-02-18T19:35:11.458947" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCaseRadio" source="/Users/b0272081/PycharmProjects/pythonProject/TestCases/TestCaseRadio.robot">
+<test id="s1-t1" name="RadioButtonTest and CheckBoxTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-18T19:35:11.694032" level="INFO">Opening browser 'chrome' to base url 'https://artoftesting.com/samplesiteforselenium'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-18T19:35:11.693688" elapsed="22.001025"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-02-18T19:35:33.698186" elapsed="0.640276"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>2seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-02-18T19:35:34.338873" elapsed="0.000950"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2024-02-18T19:35:34.340384" level="INFO">Selecting 'male' from radio button 'gender'.</msg>
+<arg>gender</arg>
+<arg>male</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2024-02-18T19:35:34.340118" elapsed="8.005936"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2024-02-18T19:35:42.346691" level="INFO">Selecting 'female' from radio button 'gender'.</msg>
+<arg>gender</arg>
+<arg>female</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2024-02-18T19:35:42.346432" elapsed="6.540531"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-02-18T19:35:48.891032" level="INFO">Selecting checkbox 'Automation'.</msg>
+<arg>Automation</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-18T19:35:48.888022" elapsed="8.178898"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-02-18T19:35:57.070739" level="INFO">Selecting checkbox 'Performance'.</msg>
+<arg>Performance</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-18T19:35:57.069469" elapsed="8.121148"/>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2024-02-18T19:36:05.194339" level="INFO">Unselecting checkbox 'Performance'.</msg>
+<arg>Performance</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-18T19:36:05.192516" elapsed="8.174514"/>
+</kw>
+<status status="PASS" start="2024-02-18T19:35:11.692454" elapsed="61.678966"/>
+</test>
+<status status="PASS" start="2024-02-18T19:35:11.462533" elapsed="61.911037"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCaseRadio">TestCaseRadio</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
